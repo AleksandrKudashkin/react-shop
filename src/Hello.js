@@ -1,10 +1,10 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 class Red extends Component {
   render() {
     const children = this.props.children;
     return (
-      <span style={{ color: 'red' }}>{children}</span>
+      <span style={{color: 'red'}}>{children}</span>
     )
   }
 }
