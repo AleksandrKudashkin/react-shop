@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ShowAddition from "./ShowAddition";
 
 class Red extends Component {
   render() {
@@ -12,7 +13,10 @@ class Red extends Component {
 class Hello extends Component {
   render() {
     return (
-      <div>Hello, <Red>World!</Red></div>
+      <div>
+        <p>Hello, <Red>World!</Red></p>
+        <p>Addition result: <ShowAddition a={2} b={7} /></p>
+      </div>
     )
   }
 }
