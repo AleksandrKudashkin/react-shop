@@ -1,3 +1,8 @@
-import add from './src/mathModule'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Hello from './src/hello';
 
-console.log(add(2, 3));
+ReactDOM.render(
+  <Hello />,
+  document.getElementById('root')
+);
