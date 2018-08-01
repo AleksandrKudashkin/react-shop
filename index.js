@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './src/hello';
+import ShowCheque from "./src/ShowCheque";
 
 ReactDOM.render(
-  <Hello />,
+  <ShowCheque />,
   document.getElementById('root')
 );
