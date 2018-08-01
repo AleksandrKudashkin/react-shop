@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 
 class ShowAddition extends Component {
   render() {
-    const props = this.props;
+    const { a, b } = this.props;
     return (
-      <span>{addition(props.a, props.b)}</span>
+      <span>{addition(a, b)}</span>
     )
   }
 }
