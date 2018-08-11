@@ -1,4 +1,4 @@
-export const Products = [
+const Products = [
   {
     id: 1,
     title: 'Assam tea',
@@ -18,3 +18,5 @@ export const Products = [
     imageUrl: 'https://www.rusteaco.ru/upload/iblock/3be/3beaf7a17f16f453d4a21ec635c04830.jpg'
   }
 ];
+
+export default Products;

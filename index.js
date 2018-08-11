@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ShowCheque from "./src/ShowCheque";
+import React from "react";
+import ReactDOM from "react-dom";
+import MainPage from "./src/MainPage";
 
-ReactDOM.render(
-  <ShowCheque />,
-  document.getElementById('root')
-);
+ReactDOM.render(<MainPage />, document.getElementById("root"));
