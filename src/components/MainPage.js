@@ -1,10 +1,10 @@
 import React from 'react';
-import ProductCard from './ProductCard';
+import Products from "../constants/Products";
+import Catalog from './Catalog';
 
 const MainPage = () => (
   <div>
-    <ProductCard price="1050" title="Sample Tea"
-                 imageUrl="https://www.rusteaco.ru/upload/iblock/bf0/bf0a7397462e387d126a692d4f3c161c.jpg" />
+    <Catalog products={Products} />
   </div>
 );
 

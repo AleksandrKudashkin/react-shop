@@ -9,7 +9,7 @@ const Products = [
     id: 2,
     title: 'Milk Oolong',
     price: 1790,
-    imageUrl: 'https://www.rusteaco.ru/upload/iblock/b3e/b3e0bff7b71643b050c2abcbcc8173ff.jpg'
+    imageUrl: 'https://www.rusteaco.ru/upload/iblock/3fc/3fc35a10dbc87ee18b25bcba8261429f.jpg'
   },
   {
     id: 1,
