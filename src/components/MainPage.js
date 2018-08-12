@@ -1,14 +1,10 @@
 import React from 'react';
-import Image from './Image';
-import Products from '../constants/Products';
-import TextBox from './TextBox';
+import ProductCard from './ProductCard';
 
 const MainPage = () => (
   <div>
-    <p>
-      <TextBox text="Sample tea" />
-    </p>
-    <Image src={Products[0].imageUrl} width="570" height="427" alt="The tea" />
+    <ProductCard price="1050" title="Sample Tea"
+                 imageUrl="https://www.rusteaco.ru/upload/iblock/bf0/bf0a7397462e387d126a692d4f3c161c.jpg" />
   </div>
 );
 
