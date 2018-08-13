@@ -1,8 +1,5 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import ShowCheque from "./src/ShowCheque";
+import React from "react";
+import ReactDOM from "react-dom";
+import CatalogPage from "./src/components/CatalogPage";
 
-ReactDOM.render(
-  <ShowCheque />,
-  document.getElementById('root')
-);
+ReactDOM.render(<CatalogPage />, document.getElementById("root"));
