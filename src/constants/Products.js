@@ -12,7 +12,7 @@ const Products = [
     imageUrl: 'https://www.itea.com.au/content/uploads/2018/02/Milk-Oolong-Tea.jpg'
   },
   {
-    id: 1,
+    id: 3,
     title: 'Earl Grey',
     price: 565,
     imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg/560px-EarlGrey_mit_Bergamotte_aromatisierter_Schwarzer_Tee.jpg'

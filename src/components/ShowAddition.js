@@ -1,4 +1,4 @@
-import addition from '../utils/MathModule';
+import addition from '../modules/MathModule';
 import React, { Component } from 'react';
 
 class ShowAddition extends Component {
