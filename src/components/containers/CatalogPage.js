@@ -10,9 +10,9 @@ class CatalogPage extends React.Component {
     this.addToCart = this.addToCart.bind(this);
   }
 
-  addToCart(item) {
+  addToCart(item, amount) {
     this.setState({
-      cart: [...this.state.cart, item]
+      cart: [...this.state.cart, ...Array(parseInt(amount)).fill(item)]
     });
   }
 
