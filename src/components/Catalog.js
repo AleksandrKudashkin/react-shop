@@ -1,12 +1,12 @@
 import React, { Fragment } from "react";
 import ProductCard from "./ProductCard";
 import { map } from "lodash";
-import Bucket from "./Bucket";
+import Cart from "./Cart";
 
 const Catalog = ({ products }) => {
   return (
     <Fragment>
-      <Bucket />
+      <Cart />
       <ul>
         {map(products, (product) => (
           <ProductCard

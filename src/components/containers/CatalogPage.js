@@ -1,25 +1,32 @@
 import React from "react";
 import Products from "../../constants/Products";
 import Catalog from "../Catalog";
-import BucketContext from "../../modules/BucketContext";
+import CartContext from "../../modules/CartContext";
 
 class CatalogPage extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { bucket: props.bucket }
+    this.state = { cart: props.cart };
+    this.addToCart = this.addToCart.bind(this);
+  }
+
+  addToCart(item) {
+    this.setState({
+      cart: [...this.state.cart, item]
+    });
   }
 
   render() {
     return (
-      <BucketContext.Provider value={this.state.bucket}>
+      <CartContext.Provider value={{cart: this.state.cart, addToCart: this.addToCart}}>
         <Catalog products={Products} />
-      </BucketContext.Provider>
+      </CartContext.Provider>
     )
   }
 }
 
 CatalogPage.defaultProps = {
-  bucket: {}
+  cart: []
 };
 
 export default CatalogPage;
